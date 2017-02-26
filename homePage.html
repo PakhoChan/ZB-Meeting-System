@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>中佰会议系统组织者</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="less/homePage.less" type="text/less" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/less" href="/node_modules/jquery/src/jquery-confirm.less">
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top" id="mainMenu">
+        <div class="container">
+            <div class="navbar-header col-md-2">
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Brand" src="./images/u46.png">
+                </a>
+            </div>
+            <p class="navbar-text col-md-7">中佰会议系统会议组织者界面</p>
+            <ul class="col-md-3" id="signUpWindow">
+                <ol class="col-md-5"><b>会议组织者</b>&nbsp;<b>张三</b></ol>
+                <ol class="col-md-1">
+                    <button type="button" class="btn btn-xs">
+                            <!--超小按钮-->
+                            <span class="glyphicon glyphicon-user"></span>
+                            <!--这些图标的使用要引入boorstrap的font-->
+                        </button>
+                </ol>
+            </ul>
+        </div>
+    </div>
+    <div class="container" id="mainContent">
+        <div class="panel panel-default col-md-9 col-md-offset-1" id="mainContentRight">
+            <div id="contentRightHead">
+                <div class="col-md-6">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#">全部会议</a></li>
+                        <li role="presentation"><a href="#">未开始</a></li>
+                        <li role="presentation"><a href="#">正进行</a></li>
+                        <li role="presentation"><a href="#">已结束</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+      						  <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                        </span>
+                    </div>
+                    <p>状态:<span>创建成功</span></p>
+                </div>
+            </div>
+                <div id="contentRightBody">
+                    <div class="table-responsive" id="scrollTable">
+                        <div>
+                            <div class="addMeeting">
+                                <img src="./images/add.png" id="add">
+                            </div>
+                            <div class="meetingGroup" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/11120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>年中大会年中大会年中大会年中大会年中大会年中大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="meetingGroup meeting_group" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup meeting_group" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup meeting_group" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup meeting_group" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup meeting_group" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会"> 
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meetingGroup" data-container="body" data-toggle="popover" data-placement="top" data-content="年中大会年中大会年中大会年中大会年中大会年中大会">
+                                <img src="./images/delete.png" class="m_delete">
+                                <div class="content">
+                                    <div class="picture">
+                                        <img src="./images/03120.png" class="image">
+                                    </div>
+                                    <div class="name">
+                                        <span>股东大会</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/jquery/src/jquery-confirm.js"></script>
+    <script src="/node_modules/less/dist/less.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/angular/angular.js">
+    </script>
+    <script src="js/homePage.js"></script>
+</body>
+
+</html>
